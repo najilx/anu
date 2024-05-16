@@ -82,6 +82,29 @@
             line-height: 1.6; /* Increased line height for better readability */
             color: #555; /* Darker text color */
         }
+
+        .school-info-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px; /* Margin between the main heading and school info */
+            text-align: center; /* Align school info to the center */
+        }
+
+        .school-info {
+            font-style: italic; /* Italics for the school info */
+            margin-top: 10px; /* Adjust top margin */
+        }
+
+        .school-info span {
+            font-weight: bold; /* Bold font for the school name */
+            display: block; /* Display spans as block elements */
+        }
+
+        .school-logo {
+            width: 60px; /* Adjusted width for the logo */
+            height: auto; /* Ensure aspect ratio is maintained */
+        }
     </style>
 </head>
 <body>
@@ -102,6 +125,15 @@
        <!-- About Me Section -->
        <section id="about" class="section">
            <div class="main-heading">Hi, it's me Anuroopa VS</div>
+           <div class="school-info-container">
+               <div class="school-info">
+                   <img src="images/sap logo.png" alt="SAP Logo" class="school-logo">
+                   <span>Student Architect</span>
+                   <span>School of Architecture and Planning</span>
+                   <span>Government Engineering College</span>
+                   <span>Thrissur</span>
+               </div>
+           </div>
            <div class="avatar">
                <img src="images/pfp.png" alt="Avatar">
            </div>
